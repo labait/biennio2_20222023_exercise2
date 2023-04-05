@@ -1,0 +1,27 @@
+{
+  "name": "biennio2_20222023_exercise2",
+  "version": "1.0.0",
+  "description": "biennio2_20222023_exercise2",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "deploy": "parcel build index.html --public-url . && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labait/biennio2_20222023_exercise2.git"
+  },
+  "author": "molinari antonio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/labait/biennio2_20222023_exercise2/issues"
+  },
+  "homepage": "https://github.com/labait/biennio2_20222023_exercise2#readme",
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.8.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3"
+  }
+}
